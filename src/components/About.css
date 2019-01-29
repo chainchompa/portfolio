@@ -1,0 +1,32 @@
+.about {
+    width: 40%;
+    margin: auto;
+}
+.about h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 4em;
+    color: #E7DFDD;
+    margin-bottom: -15%;
+    margin-top: 20%;
+}
+
+.about h6{
+    color: #E7DFDD;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3em;
+    margin-bottom: 10%;
+}
+
+.about p {
+    color: #E7DFDD;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.about .skills {
+    display: flex;
+    width: 55%;
+    justify-content: space-between;
+    color: #A239CA;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+}

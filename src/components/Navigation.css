@@ -1,0 +1,18 @@
+.navigation .nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    margin-left: 60%;
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 2%;
+
+}
+
+.navigation .nav-links a {
+    color: lightgray;
+}
+
+.navigation .nav-links a:hover {
+    color: #A239CA;
+}
