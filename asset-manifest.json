@@ -1,0 +1,16 @@
+{
+  "main.css": "/portfolio-website/static/css/main.b48f7fab.chunk.css",
+  "main.js": "/portfolio-website/static/js/main.73592d71.chunk.js",
+  "main.js.map": "/portfolio-website/static/js/main.73592d71.chunk.js.map",
+  "static/js/1.76c4fe72.chunk.js": "/portfolio-website/static/js/1.76c4fe72.chunk.js",
+  "static/js/1.76c4fe72.chunk.js.map": "/portfolio-website/static/js/1.76c4fe72.chunk.js.map",
+  "runtime~main.js": "/portfolio-website/static/js/runtime~main.2b256896.js",
+  "runtime~main.js.map": "/portfolio-website/static/js/runtime~main.2b256896.js.map",
+  "static/css/main.b48f7fab.chunk.css.map": "/portfolio-website/static/css/main.b48f7fab.chunk.css.map",
+  "static/media/gameoflife.png": "/portfolio-website/static/media/gameoflife.af643d92.png",
+  "static/media/architects.png": "/portfolio-website/static/media/architects.ad8d3ebf.png",
+  "static/media/notes.png": "/portfolio-website/static/media/notes.f2d94123.png",
+  "index.html": "/portfolio-website/index.html",
+  "precache-manifest.4c1aca804767810d4ab3e11fdfb23267.js": "/portfolio-website/precache-manifest.4c1aca804767810d4ab3e11fdfb23267.js",
+  "service-worker.js": "/portfolio-website/service-worker.js"
+}
