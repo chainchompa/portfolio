@@ -20,7 +20,7 @@ class Navigation extends React.Component {
       console.log('dev');
     } else {
       this.setState({
-        activePage: current_page.slice(27)
+        activePage: current_page.slice(26)
       })
       console.log('prod');
     }
