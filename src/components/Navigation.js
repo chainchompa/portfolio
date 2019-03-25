@@ -27,13 +27,13 @@ class Navigation extends React.Component {
       return (
         <div className="navigation">
           <div className="nav-links">
-            <Link to="/" style={{ textDecoration: "none", color: this.state.activePage == "" ? "#A23386" : "" }}>
+            <Link to="/" style={{ textDecoration: "none", color: this.state.activePage == "" ? "#A239CA" : "" }}>
               About
             </Link>
-            <Link to="/projects" style={{ textDecoration: "none", color: this.state.activePage == "projects" ? "#A23386" : "" }}>
+            <Link to="/projects" style={{ textDecoration: "none", color: this.state.activePage == "projects" ? "#A239CA" : "" }}>
               Projects
             </Link>
-            <Link to="/contact" style={{ textDecoration: "none", color: this.state.activePage == "contact" ? "#A23386" : "" }}>
+            <Link to="/contact" style={{ textDecoration: "none", color: this.state.activePage == "contact" ? "#A239CA" : "" }}>
               Contact
             </Link>
           </div>
