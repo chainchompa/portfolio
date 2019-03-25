@@ -12,23 +12,27 @@ self.__precacheManifest = [
     "url": "/static/media/architects.ad8d3ebf.png"
   },
   {
+    "revision": "6d10bb86a164edc1f1006c1e9bd38b31",
+    "url": "/static/media/Resume.6d10bb86.pdf"
+  },
+  {
     "revision": "229c360febb4351a89df",
     "url": "/static/js/runtime~main.229c360f.js"
   },
   {
-    "revision": "aa7c5141d6e79eb0b2cd",
-    "url": "/static/js/main.aa7c5141.chunk.js"
+    "revision": "984bdc4f435615f53125",
+    "url": "/static/js/main.984bdc4f.chunk.js"
   },
   {
-    "revision": "2ffeea37b8cea0aa8331",
-    "url": "/static/js/1.2ffeea37.chunk.js"
+    "revision": "53283c2c1502e290ec08",
+    "url": "/static/js/1.53283c2c.chunk.js"
   },
   {
-    "revision": "aa7c5141d6e79eb0b2cd",
-    "url": "/static/css/main.8b8e2a1e.chunk.css"
+    "revision": "984bdc4f435615f53125",
+    "url": "/static/css/main.623af83c.chunk.css"
   },
   {
-    "revision": "5b3efe83464b0ed37561028aced9e209",
+    "revision": "78444ac583fa1800087a2e3adc3de7a5",
     "url": "/index.html"
   }
 ];
