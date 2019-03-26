@@ -17,7 +17,7 @@ const Contact = () => {
           <a href="https://github.com/chainchompa">
             <FontAwesomeIcon icon={["fab", "github"]} size="3x" color="white" />
           </a>
-          <a href="https://www.linkedin.com/in/jennifer-player-92a6a5153">
+          <a href="https://www.linkedin.com/in/jenniferplayer">
             <FontAwesomeIcon icon={["fab", "linkedin"]} size="3x" color="white" />
           </a>
         </div>
