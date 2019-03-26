@@ -5,17 +5,17 @@
   background-color: #0E0B16;
   height: 80px;
   border-bottom: 1px #A239CA solid;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .navigation .nav-links {
     display: flex;
     justify-content: space-around;
     width: 40%;
-    margin-left: 60%;
     font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
     font-size: 20px;
-    margin-top: 30px;
-
 }
 
 .navigation .nav-links a {
@@ -24,4 +24,22 @@
 
 .navigation .nav-links a:hover {
     color: #A239CA;
+}
+
+@media (max-width: 1024px) {
+  .navigation .nav-links {
+    width: 70%;
+  }
+}
+
+@media (max-width: 600px) {
+  .navigation {
+    height: 50px;
+  }
+
+  .navigation .nav-links {
+    width: 85%;
+  }
+
+
 }
