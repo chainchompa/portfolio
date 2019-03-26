@@ -39,5 +39,15 @@
 
   .navigation .nav-links {
     width: 85%;
+    font-size: 16px;
+  }
+  .navigation .nav-links a:hover {
+      color: lightgray;
+  }
+}
+
+@media (max-width: 350px) {
+  .navigation .nav-links {
+    width: 100%;
   }
 }

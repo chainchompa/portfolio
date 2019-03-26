@@ -56,8 +56,8 @@
 
  @media (max-width: 600px) {
    .about {
-     margin-top: 100px;
-     width: 95%;
+     margin-top: 75px;
+     width: 90%;
    }
 
    .about h1 {
@@ -71,5 +71,6 @@
 
    .about .skills {
      margin-left: 15%;
+     margin-top: -2%;
    }
  }
