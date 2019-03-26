@@ -14,10 +14,10 @@ const Contact = () => {
           <a href="mailto:chainchompa@gmail.com">
             <FontAwesomeIcon icon="envelope" size="3x" color="white" />
           </a>
-          <a href="https://github.com/chainchompa">
+          <a href="https://github.com/chainchompa" target="_blank">
             <FontAwesomeIcon icon={["fab", "github"]} size="3x" color="white" />
           </a>
-          <a href="https://www.linkedin.com/in/jenniferplayer">
+          <a href="https://www.linkedin.com/in/jenniferplayer" target="_blank">
             <FontAwesomeIcon icon={["fab", "linkedin"]} size="3x" color="white" />
           </a>
         </div>

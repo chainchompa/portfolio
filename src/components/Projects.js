@@ -17,10 +17,10 @@ const Projects = () => {
           <h3>Game of Life</h3>
           <img src={gameoflife} alt="Game of Life" />
           <div className="project-links">
-            <a href="https://chainchompa.github.io/Game-Of-Life/">
+            <a href="https://chainchompa.github.io/Game-Of-Life/" target="_blank">
               <FontAwesomeIcon icon="desktop" size="2x" color="white" />
             </a>
-            <a href="https://github.com/chainchompa/Conways-Life">
+            <a href="https://github.com/chainchompa/Conways-Life" target="_blank">
               <FontAwesomeIcon icon="code" size="2x" color="white" />
             </a>
           </div>
@@ -43,10 +43,10 @@ const Projects = () => {
             Python/Django on the back end.
           </p>
           <div className="project-links">
-            <a href="https://jenniferplayer-lambdamud.netlify.com/">
+            <a href="https://jenniferplayer-lambdamud.netlify.com/" target="_blank">
               <FontAwesomeIcon icon="desktop" size="2x" color="white" />
             </a>
-            <a href="https://github.com/chainchompa/LambdaMUD-Project">
+            <a href="https://github.com/chainchompa/LambdaMUD-Project" target="_blank">
               <FontAwesomeIcon icon="code" size="2x" color="white" />
             </a>
           </div>
@@ -61,10 +61,10 @@ const Projects = () => {
             and Node.js on the back end.
           </p>
           <div className="project-links">
-            <a href="https://jennifernotes.netlify.com/">
+            <a href="https://jennifernotes.netlify.com/" target="_blank">
               <FontAwesomeIcon icon="desktop" size="2x" color="white" />
             </a>
-            <a href="https://github.com/chainchompa/back-end-project-week">
+            <a href="https://github.com/chainchompa/back-end-project-week" target="_blank">
               <FontAwesomeIcon icon="code" size="2x" color="white" />
             </a>
           </div>
@@ -79,10 +79,10 @@ const Projects = () => {
             and it uses HTML5, CSS3 with LESS, and Javascript.{" "}
           </p>
           <div className="project-links">
-            <a href="https://chainchompa.github.io/User-Interface-Project-Week/">
+            <a href="https://chainchompa.github.io/User-Interface-Project-Week/" target="_blank">
               <FontAwesomeIcon icon="desktop" size="2x" color="white" />
             </a>
-            <a href="https://github.com/chainchompa/LambdaNotes">
+            <a href="https://github.com/chainchompa/LambdaNotes" target="_blank">
               <FontAwesomeIcon icon="code" size="2x" color="white" />
             </a>
           </div>
