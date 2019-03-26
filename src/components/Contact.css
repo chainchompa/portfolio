@@ -38,3 +38,25 @@
 .contact .contact-links .fa-linkedin:hover {
     color: #A239CA;
 }
+
+@media (max-width: 1024px) {
+  .contact {
+    margin-top: 200px;
+    width: 80%;
+  }
+
+  .contact .contact-links {
+    width: 50%;
+  }
+
+ }
+
+ @media (max-width: 600px) {
+   .contact .contact-links {
+     width: 70%;
+     margin-top: 50px;
+   }
+
+
+
+ }

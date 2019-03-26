@@ -20,7 +20,7 @@ const Projects = () => {
             <a href="https://chainchompa.github.io/Game-Of-Life/" target="_blank">
               <FontAwesomeIcon icon="desktop" size="2x" color="white" />
             </a>
-            <a href="https://github.com/chainchompa/Conways-Life" target="_blank">
+            <a href="https://github.com/chainchompa/Game-Of-Life" target="_blank">
               <FontAwesomeIcon icon="code" size="2x" color="white" />
             </a>
           </div>
