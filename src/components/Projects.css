@@ -1,20 +1,22 @@
 .projects {
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 60%;
     margin: auto;
+    margin-top: 7%;
 }
 
 .projects .project-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 5%;
 }
 
 .projects .project-container h3 {
     color: #E7DFDD;
     font-size: 22px;
-    margin-top: 10%;
+    font-weight: 400;
 }
 
 .projects .project-container img {
@@ -30,8 +32,8 @@
     display: flex;
     width: 20%;
     justify-content: space-between;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin-top: 4%;
+    margin-bottom: 4%;
 }
 
 .projects .project-container .fa-desktop:hover {
@@ -40,4 +42,39 @@
 
 .projects .project-container .fa-code:hover {
     color: #A239CA;
+}
+
+@media (max-width: 1250px) {
+  .projects {
+    margin-top: 10%;
+    width: 80%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .projects {
+    margin-top: 15%;
+    width: 100%;
+    width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  .projects .project-container {
+    margin-bottom: 8%;
+  }
+
+  .projects .project-container img {
+      width: 80%;
+  }
+
+  .projects .project-container p {
+      width: 80%;
+  }
+  .projects .project-container .project-links {
+      width: 30%;
+      margin-top: 8%;
+      margin-bottom: 6%;
+  }
+
 }
