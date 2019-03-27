@@ -15,14 +15,12 @@ class Navigation extends React.Component {
     let current_page = window.location.href;
     if(process.env.NODE_ENV == 'development') {
       this.setState({
-        activePage: current_page.slice(22)
+        activePage: current_page.slice(24)
       })
-      console.log('dev');
     } else {
       this.setState({
-        activePage: current_page.slice(26)
+        activePage: current_page.slice(28)
       })
-      console.log('prod');
     }
   };
     render() {
