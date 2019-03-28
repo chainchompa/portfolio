@@ -1,17 +1,17 @@
 {
   "main.css": "/static/css/main.c93cbc51.chunk.css",
-  "main.js": "/static/js/main.71c049d8.chunk.js",
-  "main.js.map": "/static/js/main.71c049d8.chunk.js.map",
-  "static/js/1.99130747.chunk.js": "/static/js/1.99130747.chunk.js",
-  "static/js/1.99130747.chunk.js.map": "/static/js/1.99130747.chunk.js.map",
+  "main.js": "/static/js/main.019405a9.chunk.js",
+  "main.js.map": "/static/js/main.019405a9.chunk.js.map",
+  "static/js/1.0bf951c3.chunk.js": "/static/js/1.0bf951c3.chunk.js",
+  "static/js/1.0bf951c3.chunk.js.map": "/static/js/1.0bf951c3.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
   "static/media/Resume.pdf": "/static/media/Resume.681d7165.pdf",
+  "static/media/gameoflife.png": "/static/media/gameoflife.af643d92.png",
   "static/media/chattr.png": "/static/media/chattr.537bd249.png",
   "static/media/architects.png": "/static/media/architects.ad8d3ebf.png",
-  "static/media/gameoflife.png": "/static/media/gameoflife.af643d92.png",
   "static/css/main.c93cbc51.chunk.css.map": "/static/css/main.c93cbc51.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.6627302579185487f9395abea15af1de.js": "/precache-manifest.6627302579185487f9395abea15af1de.js",
+  "precache-manifest.19413b86f857e18554398e711e072a26.js": "/precache-manifest.19413b86f857e18554398e711e072a26.js",
   "service-worker.js": "/service-worker.js"
 }
