@@ -56,7 +56,7 @@ const Projects = () => {
           <p>
             Written using React on the front end and Node.js on the back end. Uses Socket.io for live chat
             between companies and customers, Firebase for authentication, Stripe for billing, PostgreSQL for the
-            database, and Material-UI for design.
+            database, Redis for persisting data, and Material-UI for design.
           </p>
         </div>
         <div className="project-container">
@@ -71,7 +71,7 @@ const Projects = () => {
               </a>
             </div>
           <p>
-            An online multiplayer text adventure game that includes moving around dierent rooms, player status, and messaging.
+            An online multiplayer text adventure game that includes moving around different rooms, displaying player status, and messaging between online players.
           </p>
           <p>
             Written using React on the front end and Python/Django on the back end. Uses Pusher websockets for real-time messaging.
