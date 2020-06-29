@@ -1,10 +1,15 @@
+#contact {
+  scroll-behavior: smooth;
+}
+
 .contact {
     margin: auto;
-    margin-top: 10%;
     width: 50%;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .contact h1 {
@@ -25,18 +30,19 @@
     margin-top: 2%;
     width: 50%;
     justify-content: space-around;
-
-}
-.contact .contact-links .fa-envelope:hover {
-    color: #A239CA;
 }
 
-.contact .contact-links .fa-github:hover {
-    color: #A239CA;
+.contact .contact-links .fa-envelope,
+.contact .contact-links .fa-github,
+.contact .contact-links .fa-linkedin {
+  transition: color .2s ease;
 }
 
+
+.contact .contact-links .fa-envelope:hover,
+.contact .contact-links .fa-github:hover,
 .contact .contact-links .fa-linkedin:hover {
-    color: #A239CA;
+  color: #A239CA;
 }
 
 @media (max-width: 1024px) {

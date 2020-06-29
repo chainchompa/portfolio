@@ -1,0 +1,84 @@
+#experience {
+  scroll-behavior: smooth;
+}
+
+.experience {
+    width: 40%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+
+.experience h2 {
+    color: #E7DFDD;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.experience .experience-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.experience h3 {
+    color: #E7DFDD;
+    font-size: 30px;
+    margin-bottom: -20px;
+    font-weight: 400;
+    text-align: left;
+}
+
+
+.experience h4 {
+    color: #E7DFDD;
+    font-size: 20px;
+    font-weight: 300;
+}
+.experience .experience-container p {
+    color: #E7DFDD;
+    font-size: 18px;
+}
+
+@media (max-width: 1250px) {
+  .experience {
+    margin-top: 10%;
+    width: 80%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .experience {
+    margin-top: 15%;
+    width: 100%;
+    width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  .experience .experience-container {
+    margin-bottom: 8%;
+  }
+
+  .experience .experience-container img {
+      width: 80%;
+  }
+
+  .experience .experience-container p {
+      width: 80%;
+  }
+  .experience .experience-container .experience-links {
+      width: 30%;
+      margin-top: 8%;
+      margin-bottom: 6%;
+  }
+}

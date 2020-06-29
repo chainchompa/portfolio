@@ -1,5 +1,5 @@
 import React from "react";
-import Pdf from '../documents/Resume.pdf';
+import Pdf from '../documents/JenniferResume.pdf';
 
 import { Link } from "react-router-dom";
 import "./Navigation.css";
@@ -27,15 +27,18 @@ class Navigation extends React.Component {
       return (
         <div className="navigation">
           <div className="nav-links">
-            <Link to="/" style={{ textDecoration: "none", color: this.state.activePage == "" ? "#A239CA" : "" }}>
+            <a href="#about" style={{ textDecoration: "none", color: this.state.activePage == "" ? "#A239CA" : "" }}>
               About
-            </Link>
-            <Link to="/projects" style={{ textDecoration: "none", color: this.state.activePage == "projects" ? "#A239CA" : "" }}>
+            </a>
+            <a href="#experience" style={{ textDecoration: "none", color: this.state.activePage == "projects" ? "#A239CA" : "" }}>
+              Experience
+            </a>
+            <a href="#projects" style={{ textDecoration: "none", color: this.state.activePage == "projects" ? "#A239CA" : "" }}>
               Projects
-            </Link>
-            <Link to="/contact" style={{ textDecoration: "none", color: this.state.activePage == "contact" ? "#A239CA" : "" }}>
+            </a>
+            <a href="#contact" style={{ textDecoration: "none", color: this.state.activePage == "contact" ? "#A239CA" : "" }}>
               Contact
-            </Link>
+            </a>
             <a href = {Pdf} target = "_blank" style={{ textDecoration: "none"}}>Resume</a>
           </div>
         </div>

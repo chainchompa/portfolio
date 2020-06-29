@@ -11,10 +11,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Projects = () => {
   return (
     <div className="projects-container">
-      <Navigation />
-      <div className="projects">
+      <div className="projects" id="projects">
+        <h2>Projects</h2>
         <div className="project-container">
           <h3>Game of Life</h3>
+          <h4>December 2018</h4>
           <img src={gameoflife} alt="Game of Life" />
           <div className="project-links">
             <a href="https://chainchompa.github.io/Game-Of-Life/" target="_blank">
@@ -38,7 +39,8 @@ const Projects = () => {
           </p>
         </div>
         <div className="project-container">
-          <h3>chattr</h3>
+          <h3>Chattr</h3>
+          <h4>March 2019</h4>
           <img src={chattr} alt="Chattr" />
           <div className="project-links">
             <a href="https://labs10-webchat.netlify.com/" target="_blank">
@@ -59,8 +61,9 @@ const Projects = () => {
             database, Redis for persisting data, and Material-UI for design.
           </p>
         </div>
+        <h3>MUD Game</h3>
+        <h4>November 2018</h4>
         <div className="project-container">
-          <h3>MUD Game</h3>
           <img src={mud} alt="Mud Game" />
             <div className="project-links">
               <a href="https://jenniferplayer-lambdamud.netlify.com/" target="_blank">
@@ -75,26 +78,6 @@ const Projects = () => {
           </p>
           <p>
             Written using React on the front end and Python/Django on the back end. Uses Pusher websockets for real-time messaging.
-          </p>
-        </div>
-        <div className="project-container">
-          <h3>S&J Architects Mock Website</h3>
-          <img src={architects} alt="Architecture Website" />
-            <div className="project-links">
-              <a href="https://chainchompa.github.io/User-Interface-Project-Week/" target="_blank">
-                <FontAwesomeIcon icon="desktop" size="2x" color="white" />
-              </a>
-              <a href="https://github.com/chainchompa/LambdaNotes" target="_blank">
-                <FontAwesomeIcon icon="code" size="2x" color="white" />
-              </a>
-            </div>
-          <p>
-            A fully-responsive sample company site. The site includes a fully
-            functional tab component coded from scratch utilizing JavaScript
-            components and DOM Manipulation.
-          </p>
-          <p>
-            This was the first full project I completed and it uses HTML5, CSS3 with LESS, and JavaScript.
           </p>
         </div>
       </div>

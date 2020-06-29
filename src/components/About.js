@@ -5,8 +5,7 @@ import Navigation from "./Navigation";
 const About = () => {
   return (
     <div className="about-container">
-      <Navigation />
-      <div className="about">
+      <div className="about" id="about">
         <h1>Jennifer Player.</h1>
         <h6>
           Full Stack Software Engineer.
@@ -15,18 +14,16 @@ const About = () => {
         <p>Here are some of my favorite tools to work with:</p>
         <div className="skills">
           <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Git</li>
             <li>React</li>
             <li>Redux</li>
+            <li>HTML</li>
+            <li>CSS</li>
           </ul>
           <ul>
+            <li>Git</li>
             <li>JavaScript</li>
             <li>Node.js</li>
-            <li>Express</li>
-            <li>Python</li>
-            <li>Django</li>
+            <li>Jest</li>
           </ul>
         </div>
 

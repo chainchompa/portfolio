@@ -20,6 +20,7 @@
 
 .navigation .nav-links a {
     color: lightgray;
+    transition: color .2s ease;
 }
 
 .navigation .nav-links a:hover {

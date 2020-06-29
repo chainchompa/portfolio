@@ -1,30 +1,47 @@
+#projects {
+  scroll-behavior: smooth;
+}
+
 .projects {
-    display: flex;
-    flex-direction: column;
-    width: 60%;
+    width: 40%;
     margin: auto;
-    margin-top: 7%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 5%;
+}
+
+.projects h2 {
+    color: #E7DFDD;
+    font-size: 60px;
+    font-weight: 500;
 }
 
 .projects .project-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin-bottom: 5%;
 }
 
-.projects .project-container h3 {
+.projects h3 {
     color: #E7DFDD;
-    font-size: 22px;
+    font-size: 30px;
+    margin-bottom: -20px;
     font-weight: 400;
+    text-align: left;
+}
+
+.projects h4 {
+    color: #E7DFDD;
+    font-size: 20px;
+    font-weight: 300;
 }
 
 .projects .project-container img {
-    width: 60%;
+    width: 100%;
 }
 
 .projects .project-container p {
-    width: 60%;
     color: #E7DFDD;
 }
 
@@ -32,11 +49,16 @@
     display: flex;
     width: 20%;
     justify-content: space-between;
-    margin-top: 4%;
-    margin-bottom: 4%;
+    margin: 4% auto;
 }
 
-.projects .project-container .fa-desktop:hover {
+.projects .project-container .fa-desktop,
+.projects .project-container .fa-code {
+    transition: color .2s ease;
+}
+
+.projects .project-container .fa-desktop:hover,
+.projects .project-container .fa-code:hover {
     color: #A239CA;
 }
 

@@ -5,8 +5,7 @@ import Navigation from "./Navigation";
 
 const Contact = () => {
   return (
-    <div className="contact-container">
-      <Navigation />
+    <div className="contact-container" id="contact">
       <div className="contact">
         <h1>Get In Touch</h1>
         <p>Feel free to contact me about anything!</p>

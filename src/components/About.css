@@ -1,7 +1,14 @@
+#about {
+  scroll-behavior: smooth;
+}
+
 .about {
     width: 40%;
     margin: auto;
-    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
 }
 .about h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -28,6 +35,7 @@
     width: 55%;
     justify-content: space-between;
     color: #A239CA;
+    font-size: 20px;
     font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
 }
 
